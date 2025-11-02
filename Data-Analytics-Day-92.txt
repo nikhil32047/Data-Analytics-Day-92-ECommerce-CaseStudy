@@ -1,0 +1,84 @@
+E-Commerce Analytics Case Study
+
+Focus: Customer Purchase Behavior, Product Recommendations, Sales Forecasting
+
+🔹 Lesson 1: Understanding E-Commerce Data
+=============================================
+Summary:
+E-commerce platforms collect massive data — customer demographics, browsing history, purchases, reviews, and returns. Understanding this data structure is key.
+Key Tables:
+--------------
+customers → demographics
+orders → order details
+products → catalog info
+transactions → payment history
+
+Example:
+An e-commerce dataset might show:
+
+Customer_ID	Product	Category	Price	Quantity	Date
+1001	iPhone 15	Electronics	79999	1	2024-06-12
+
+Goal: Analyze which customers buy which products and why.
+
+Video: E-Commerce Data Analysis in Python (15 mins)
+
+
+🔹 Lesson 2: Customer Purchase Behavior Analysis
+======================================================
+Summary:
+Helps identify loyal customers and purchase patterns.
+Use RFM (Recency, Frequency, Monetary) analysis
+Group customers by purchase behavior
+Calculate CLV (Customer Lifetime Value)
+
+Example:
+Customers who made a purchase in the last 30 days and spend ₹10,000+ are tagged as “High-Value Customers”.
+
+Video: RFM & Customer Segmentation Explained (12 mins)
+
+
+🔹 Lesson 3: Product Recommendation Systems
+=================================================
+Summary:
+Recommendation systems increase user engagement and sales.
+Collaborative Filtering → recommends based on similar users
+Content-Based Filtering → recommends similar products
+Hybrid Models → combines both
+
+Example:
+If a user buys “MacBook Air”, recommend “MacBook Case” or “USB-C Adapter”.
+
+Video: Recommendation System in Python – Step by Step (18 mins)
+
+
+🔹 Lesson 4: Sales Forecasting with Time Series
+=====================================================
+Summary:
+Predicting future sales helps in inventory and marketing decisions.
+Use moving averages and seasonal decomposition
+Apply ARIMA, Prophet, or LSTM models for forecasts
+
+Example:
+Amazon forecasts a 20% spike in electronics sales every festive season based on past data trends.
+
+Video: Sales Forecasting using ARIMA (20 mins)
+
+
+🔹 Lesson 5: Case Study – Building an E-Commerce Analytics Dashboard
+=====================================================================
+Summary:
+Combine all lessons into one dashboard:
+Clean customer and order data
+Segment customers (RFM)
+Visualize top products, repeat buyers, sales trend
+Forecast next month’s sales
+
+Example:
+A Power BI dashboard shows:
+📈 Top 10 Products by Revenue
+🛍️ High-Value Customers by Region
+💸 Next Month Sales Forecast
+
+Video: E-Commerce Dashboard in Power BI (22 mins)
+
